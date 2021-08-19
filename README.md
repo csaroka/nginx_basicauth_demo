@@ -66,7 +66,7 @@ Monitor the deployments and record the services' external IP address
 kubectl get all -n ${K8S_NAMESPACE}
 ```
 
-Open a browser windows and test access to each of the nginx services' external IP address; ex. http://<EXTERNAL_IP_ADDRESS>. The noauth service endpoint will send you directly to the main page while the auth service endpoint will prompt you for a user name and password before permitting access to the main page. For the auth service endpoint prompt, enter user1, user2, or user3 and the respective password set in the variable.  
+Open a browser windows and test access to each of the nginx services' external IP address; ex. **http://<EXTERNAL_IP_ADDRESS>**. The noauth service endpoint will send you directly to the main page while the auth service endpoint will prompt you for a user name and password before permitting access to the main page. For the auth service endpoint prompt, enter user1, user2, or user3 and the respective password set in the variable.  
 
 For each service endpoint create uptime check in Cloud Monitoring. Enter the **<EXTERNAL_IP>** as the URL and for the auth service uptime check, enter the username/password combination in the **Authentication** section.
 
