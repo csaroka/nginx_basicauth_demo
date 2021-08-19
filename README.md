@@ -74,7 +74,7 @@ Test the auth service uptime check by changing the user password in the nginx co
 
 ```bash
 kubectl get pods -n ${K8S_NAMESPACE}
-kubectl exec -it pod/nginx-auth-<UUID> bash
+kubectl exec -it pod/nginx-auth-[UUID] bash
 cat /etc/apache2/.htpasswd
 htpasswd -cb /etc/apache2/.htpasswd user1 'P@$$w0rdxyz'
 ```
