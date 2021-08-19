@@ -6,7 +6,7 @@ Prerequisites:
 * Obtain GKE cluster credentials
 * Create a kubernetes namespace for the nginx instances
 
-Set the following variables
+Set the following variables. Note: Retain the single-quotes around the password entries.
 
 ```bash
 export NOAUTH_REG_NAME=<REGISTRY_NAME>
