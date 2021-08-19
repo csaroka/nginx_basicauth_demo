@@ -49,8 +49,8 @@ Update the Kubernetes manifiest files with appropriate image path
 
 ```bash
 cd ..
-sed -i '' 's/<REPLACE_WITH_REG_NAME>/'${NOAUTH_REG_NAME}'/g' "$(pwd)/k8s-manifests/nginx-noauth.yaml"
-sed -i '' 's/<REPLACE_WITH_REG_NAME>/'${AUTH_REG_NAME}'/g' "$(pwd)/k8s-manifests/nginx-auth.yaml"
+sed -i '' 's/<CHANGE_ME>/'${NOAUTH_REG_NAME}'/g' "$(pwd)/k8s-manifests/nginx-noauth.yaml"
+sed -i '' 's/<CHANGE_ME>/'${AUTH_REG_NAME}'/g' "$(pwd)/k8s-manifests/nginx-auth.yaml"
 ```
 
 Deploy the kubernetes manifests

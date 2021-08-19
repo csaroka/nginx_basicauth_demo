@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: <REPLACE_WITH_REG_NAME>/nginx-auth:v1
+        image: <CHANGE_ME>/nginx-auth:v1
         ports:
         - containerPort: 80
 ---
