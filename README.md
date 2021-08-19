@@ -9,12 +9,12 @@ Prerequisites:
 Set the following variables. Note: Retain the single-quotes around the password entries.
 
 ```bash
-export NOAUTH_REG_NAME=<REGISTRY_NAME>
-export AUTH_REG_NAME=<REGISTRY_NAME>
-export USER1_PASS='<PASSWORD>'
-export USER2_PASS='<PASSWORD>'
-export USER3_PASS='<PASSWORD>'
-export K8S_NAMESPACE=<K8S_NAMESPACE_NAME>
+export NOAUTH_REG_NAME=[REGISTRY_NAME]
+export AUTH_REG_NAME=[REGISTRY_NAME]
+export USER1_PASS='[PASSWORD]'
+export USER2_PASS='[PASSWORD]'
+export USER3_PASS='[PASSWORD]'
+export K8S_NAMESPACE=[K8S_NAMESPACE_NAME]
 ```
 
 Build the nginx-noauth container image
