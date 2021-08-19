@@ -14,7 +14,7 @@ export AUTH_REG_NAME=<REGISTRY_NAME>
 export USER1_PASS='<PASSWORD>'
 export USER2_PASS='<PASSWORD>'
 export USER3_PASS='<PASSWORD>'
-export K8S_NAMESPACE=${K8S_NAMESPACE}
+export K8S_NAMESPACE=<K8S_NAMESPACE_NAME>
 ```
 
 Build the nginx-noauth container image
