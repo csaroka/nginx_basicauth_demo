@@ -31,7 +31,7 @@ docker tag nginx-noauth:latest ${NOAUTH_REG_NAME}/nginx-noauth:v1
 docker push ${NOAUTH_REG_NAME}/nginx-noauth:v1
 ```
 
-Build the nginx-auth container image
+Build the nginx-auth container image. Note: Not a security best practice; for demo purposes only.
 
 ```bash
 cd ../nginx-auth
