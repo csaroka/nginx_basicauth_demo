@@ -38,7 +38,7 @@ cd ../nginx-auth
 docker build -t nginx-auth --build-arg USER1_PASS=${USER1_PASS} --build-arg USER2_PASS=${USER2_PASS} --build-arg USER3_PASS=${USER3_PASS} .
 ```
 
-Tag the nginx-auth container image and push to a container registry \
+Tag the nginx-auth container image and push to a container registry
 
 ```bash
 docker tag nginx-auth2:latest ${AUTH_REG_NAME}/nginx-auth:v1
