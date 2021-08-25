@@ -41,8 +41,8 @@ docker build -t nginx-auth --build-arg USER1_PASS=${USER1_PASS} --build-arg USER
 Tag the nginx-auth container image and push to a container registry
 
 ```bash
-docker tag nginx-auth2:latest ${AUTH_REG_NAME}/nginx-auth:v1
-docker push ${AUTH_REG_NAME}/nginx-auth2:v1
+docker tag nginx-auth:latest ${AUTH_REG_NAME}/nginx-auth:v1
+docker push ${AUTH_REG_NAME}/nginx-auth:v1
 ```
 
 Update the Kubernetes manifiest files with appropriate image path
